@@ -7,7 +7,7 @@ I should to use the 840 billion tokens and 300 dimension vectors from glove embe
 The conlleval.py is the evaluation function provided.
 
 The evaluation from dev dataset score:
-'''
+```
 processed 16261 tokens with 661 phrases; found: 227 phrases; correct: 76.
 accuracy:  11.88%; (non-O)
 accuracy:  93.46%; precision:  33.48%; recall:  11.50%; FB1:  17.12
@@ -21,4 +21,4 @@ accuracy:  93.46%; precision:  33.48%; recall:  11.50%; FB1:  17.12
           product: precision:   9.09%; recall:   2.70%; FB1:   4.17  11
        sportsteam: precision:  20.00%; recall:   1.43%; FB1:   2.67  5
            tvshow: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
-'''
+```
