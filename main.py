@@ -130,7 +130,7 @@ def main():
     print("--------------------------------> Predicting on test set...")
     # model.load_state_dict(torch.load("ner-model.pt"))
     results = predict(model, test_loader, idx2tag, test_sentences_words, device)
-    save_predictions(results, "test-predictions.txt")
+    save_predictions(results, "data/test-predictions.txt")
     print("--------------------------------> Test predictions saved to test-predictions.txt")
 
 if __name__ == "__main__":
