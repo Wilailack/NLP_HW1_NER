@@ -25,12 +25,14 @@ trained model to fill out the testing data with predicted named entity tags as
 submission. We will evaluate your submissions with ground truth.
 
 Requirements:
-• Python programming language only.
-• You can use any machine learning library ( TensorFlow, Keras, Pytorch, etc.).
-• You can refer to the snippets of code from open-source projects, tutorials, blogs, etc. Do not clone the entire projects directly. Try to implement a model by yourself.
-• Word embedding like Word2vec or Glove should be used in the project.
+
+- Python programming language only.
+- You can use any machine learning library ( TensorFlow, Keras, Pytorch, etc.).
+- You can refer to the snippets of code from open-source projects, tutorials, blogs, etc. Do not clone the entire projects directly. Try to implement a model by yourself.
+- Word embedding like Word2vec or Glove should be used in the project.
 
 Grading:
+
 We follow the definition of metrics introduced at CoNLL-2003 to measure the
 performance of the systems in terms of precision, recall and F1-score, where:
 
