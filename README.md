@@ -43,6 +43,8 @@ corresponding entity in the data file.”
 
 Models are evaluated based on exact-match F1-score on the testing data.
 
+Note:
+
 I choose to use the 840 billion tokens and 300 dimension vectors from glove embeddings: https://nlp.stanford.edu/projects/glove/
 
 The conlleval.py is the evaluation function provided.
